@@ -7,7 +7,7 @@ Design a front-end for Google Search, Google Image Search, and Google Advanced S
 
 · [Live Demo](https://acamposcar.github.io/CS50x-search/)
 
-· [Demonstration Video](https://www.youtube.com/watch?v=8ddd3RancN4)
+· [Screencast Video](https://www.youtube.com/watch?v=8ddd3RancN4)
 
 
 ### Technologies
