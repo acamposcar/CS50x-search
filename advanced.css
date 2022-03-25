@@ -51,7 +51,6 @@ h2{
 #adv_div_button{
   text-align: right;
   width:  50%;
-    min-width:  200px;
 
 }
 
@@ -61,6 +60,32 @@ h2{
   background: #202124;
   border:  1px solid #5f6368;;
   color: #e8eaed;
-  min-width:  200px;
+  min-width:  120px;
 
+}
+
+
+@media (max-width: 1000px) {
+
+  #search_bar_adv {
+    width: 70%;
+  }
+  #adv_div_button {
+    width: 70%;
+  }
+}
+
+@media (max-width: 600px) {
+  .container_adv{
+    padding-left: 5px;
+  }
+  .input_text_adv{
+    grid-template-columns: 170px 1fr ;
+  }
+  #search_bar_adv {
+    width: 80%;
+  }
+  #adv_div_button {
+    width: 80%;
+  }
 }

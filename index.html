@@ -1,37 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Google Search</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div class="container">
 
-            <div id="heading">
-                <a href="images.html">Google Images</a>
-                <a href="advanced.html">Advanced Search</a>
-            </div>
+<head>
+    <title>Google Search</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+    <div class="container">
+
+        <div id="heading">
+            <a href="images.html">Google Images</a>
+            <a href="advanced.html">Advanced Search</a>
+        </div>
+        <div id="search">
             <div id="google">
-                <h1>Google</h1>
+                Google
             </div>
-            
+
             <div id="form">
 
                 <form action="https://www.google.com/search">
                     <div id="input_text">
                         <input id="search_bar" type="text" name="q">
                     </div>
-                    
+
                     <div id="buttons">
                         <input class="button_search" type="submit" value="Google Search">
-                        <input class="button_search" type="submit"  value="I'm Feeling Lucky" name="btnI">
+                        <input class="button_search" type="submit" value="I'm Feeling Lucky" name="btnI">
                         <input type="hidden" name="gl" value="us">
                     </div>
                 </form>
-
-             </div>       
-
+            </div>
         </div>
-    </body>
+
+    </div>
+</body>
+
 </html>

@@ -19,8 +19,6 @@ body {
 #heading {
   text-align: right;
   padding-top: 20px;
-
-
 }
 
 a {
@@ -33,10 +31,17 @@ a:hover {
   text-decoration:underline;
 }
 
+#search{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
 
 #google{
-  font-size: 300%;
-  height: 160px;
+  font-size: 6em;
+  font-weight: bold;
 }
 
 
@@ -52,15 +57,14 @@ form{
   font-size: large;
   display: block;
   margin: 10px auto;
-  width:  40%;
+  width:  60%;
   background: #202124;
   border-style: solid;
   border-color: #bdc1c6;
   color: #e8eaed;
-  min-width:  400px;
+  min-width: calc(300px + 10vw);
   height: 35px;
   padding-left: 20px;
-
 }
 
 #buttons {
